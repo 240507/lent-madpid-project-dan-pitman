@@ -1,3 +1,6 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
+    game.over(true)
+})
 let mySprite = sprites.create(img`
     ........................
     ........................
@@ -45,3 +48,4 @@ tiles.setTilemap(tiles.createTilemap(hex`100010000209090909090909090909090909090
     `, [myTiles.transparency16,sprites.dungeon.floorDark0,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest1,sprites.dungeon.greenOuterSouth0,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorth0,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenInnerSouthWest,sprites.dungeon.greenInnerNorthWest,sprites.dungeon.greenInnerNorthEast,sprites.dungeon.floorLight0], TileScale.Sixteen))
 tiles.placeOnRandomTile(mySprite, sprites.dungeon.floorLight0)
 scene.cameraFollowSprite(mySprite)
+info.startCountdown(10)
