@@ -1,7 +1,36 @@
-scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
-    game.over(true, effects.melt)
+namespace StatusBarKind {
+    export const Points = StatusBarKind.create()
+}
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    projectile = sprites.createProjectileFromSprite(img`
+        . . . . . . . c c c a c . . . . 
+        . . c c b b b a c a a a c . . . 
+        . c c a b a c b a a a b c c . . 
+        . c a b c f f f b a b b b a . . 
+        . c a c f f f 8 a b b 3 b b a . 
+        . c a 8 f f 8 c a b b b b b a . 
+        c c c a c c c 3 a b c f a b c c 
+        c c a a a c c c a c f f c b b a 
+        c c a b 6 a c c a f f c c b b a 
+        c a b c 8 6 c 3 a a a b b c b c 
+        c a c f f a c c a f a c c c b . 
+        c a 8 f c c b a f f c b c c c . 
+        . c b c c c c b f c a b b a c . 
+        . . a b b b b b b b b b b b c . 
+        . . . c c c c b b b b b c c . . 
+        . . . . . . . . c b b c . . . . 
+        `, mySprite, 50, 50)
 })
-let mySprite = sprites.create(img`
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleRedCrystal, function (sprite, location) {
+    if (true) {
+        info.changeScoreBy(1)
+        tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleBlueCrystal)
+        info.startCountdown(7.5)
+    }
+})
+let projectile: Sprite = null
+let mySprite: Sprite = null
+mySprite = sprites.create(img`
     ........................
     ........................
     ........................
@@ -29,6 +58,6 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(mySprite, 75, 75)
 tiles.setTilemap(tilemap`level1`)
-tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleInsignia)
+tiles.placeOnRandomTile(mySprite, sprites.dungeon.collectibleBlueCrystal)
 scene.cameraFollowSprite(mySprite)
 info.startCountdown(7.5)

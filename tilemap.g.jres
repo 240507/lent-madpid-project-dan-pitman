@@ -40,31 +40,6 @@
         ],
         "displayName": "level2"
     },
-    "level1": {
-        "id": "level1",
-        "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDA2MGEwYTBhMGEwYTBhMGEwYTBhMGEwYTBhMGEwYTA0MDkwMzAzMDgwODAzMDMwMzAzMDMwMzBlMDMwMzAzMGIwOTAzMDMwMzAzMDMwMzBkMDgwMzAzMGUwMzAyMDMwYjA5MDgwODA4MDgwODA4MDcwMzAzMDMwZTAzMDMwMzBiMDkwMzAzMDMwMzAzMDMwYjAzMDMwMzBlMDMwMzAzMGIwOTAzMDgwYzAzMDEwMzBiMDMwMzBhMGYxMDEwMGEwYjA5MDMwMzA5MDMwMzAzMGIwMzAzMDMwMzAzMTAwMzBiMDkwMzAzMDUwODA4MDgwNzAzMDMwMzAzMDMwMzAzMGIwOTAzMDMwMzAzMDMwMzAzMDMwMzBhMDQwMzAzMDMwYjA5MDMwMzAzMDMwMzAzMDMwMzAzMDMwYjAzMDMwMzBiMDkwYTBhMDQwMzAzMGQwODA4MGMwMzBiMGEwYTAzMGIwOTAzMDMwYjEwMTAwYjAzMDMwMzAzMGIwMzAzMDMwYjA5MDMwMzBiMDMwMzBiMDgwODA4MDgwNzAzMDMwMzBiMDkwMzAzMGIwMzAzMGIwMzAzMDMwMzA1MDgwODAzMGIwOTAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwYjA1MDgwODA4MDgwODA4MDgwODA4MDgwODA4MDgwODA3MjIyMjIyMjIyMjIyMjIyMjAyMjAyMjAwMDAyMDAwMjAwMjAwMDAyMDAyMjAwMDIwMjIyMjIyMjIwMDIwMDAyMDAyMDAwMDIwMDAyMDAwMjAwMjAwMDAyMDAwMjIwMDIyMDIyMDAwMjAwMDAwMDAyMDAyMjAyMjIyMDAwMDAwMjAwMjAwMDAwMDAwMjIwMDIwMDIwMDAwMDAwMDIwMDAyMDIyMjIwMDIyMjIyMDIyMjAwMjIwMDAwMjAwMjAwMDIwMDIyMDAwMjIyMjIyMDAyMDAyMjAwMDAyMDAyMDIyMjAwMjAwMDAwMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIyMg==",
-        "tileset": [
-            "myTiles.transparency16",
-            "sprites.dungeon.collectibleRedCrystal",
-            "sprites.dungeon.collectibleInsignia",
-            "sprites.dungeon.floorLight0",
-            "sprites.dungeon.purpleOuterNorthEast",
-            "sprites.dungeon.purpleOuterSouthEast",
-            "sprites.dungeon.purpleOuterNorthWest",
-            "sprites.dungeon.purpleOuterSouthWest",
-            "sprites.dungeon.purpleOuterSouth1",
-            "sprites.dungeon.purpleOuterWest1",
-            "sprites.dungeon.purpleOuterNorth1",
-            "sprites.dungeon.purpleOuterEast0",
-            "sprites.dungeon.purpleInnerNorthEast",
-            "sprites.dungeon.purpleInnerNorthWest",
-            "sprites.dungeon.purpleOuterWest0",
-            "sprites.dungeon.purpleInnerSouthEast",
-            "sprites.dungeon.floorLight4"
-        ],
-        "displayName": "level1"
-    },
     "level3": {
         "id": "level3",
         "mimeType": "application/mkcd-tilemap",
@@ -98,6 +73,31 @@
             "myTiles.transparency16"
         ],
         "displayName": "level4"
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDA1MDkwOTA5MDkwOTA5MDkwOTA5MDkwOTA5MDkwOTAzMDgwMTAyMDIwMjAyMDIwMjAyMDIwMjBkMDIwMjAyMGEwODAyMDIwMjAyMDIwMjAyMDIwMjAyMGQwMjEwMDIwYTA4MDcwNzA3MDcwNzA3MDYwMjAyMDIwZDAyMDIwMjBhMDgwMjAyMDIwMjAyMDIwYTAyMDIwMjBkMDIwMjAyMGEwODAyMDcwYjAyMTAwMjBhMDIwMjA5MGUwZjBmMDkwYTA4MDIwMjA4MDIwMjAyMGEwMjAyMDIwMjAyMGYwMjBhMDgwMjAyMDQwNzA3MDcwNjAyMDIwMjAyMDIwMjAyMGEwODAyMDIwMjAyMDIwMjAyMDIwMjA5MDMwMjAyMDIwYTA4MDIwMjAyMDIwMjAyMDIwMjAyMDIwYTAyMDIwMjBhMDgwOTA5MDMwMjAyMGMwNzA3MGIwMjBhMDkwMjAyMGEwODAyMDIwYTBmMGYwYTAyMDIwMjAyMGExMDAyMDIwYTA4MDIwMjBhMDIwMjBhMDcwNzA3MDcwNjAyMDIwMjBhMDgxMDAyMDIwMjAyMDIwMjAyMDIwMjA0MDcwMjAyMGEwODAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwYTA0MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzA3MDcwNzA2MjIyMjIyMjIyMjIyMjIyMjAyMDAwMDAwMDAyMDAwMjAwMjAwMDAwMDAwMjAwMDIwMjIyMjIyMjIwMDIwMDAyMDAyMDAwMDIwMDAyMDAwMjAwMjAwMDAyMDAwMjIwMDIyMDIyMDAwMjAwMDAwMDAyMDAyMjAyMjIyMDAwMDAwMjAwMjAwMDAwMDAwMjIwMDIwMDIwMDAwMDAwMDIwMDAyMDIyMjIwMDIyMjIyMDAyMjAwMjIwMDAwMjAwMjAwMDIwMDIyMDAwMjIyMjIyMDAyMDAyMDAwMDAwMDAyMDAyMjAwMjAwMDAwMDAwMDAwMDIwMjIyMjIyMjIyMjIyMjIyMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.collectibleRedCrystal",
+            "sprites.dungeon.floorLight0",
+            "sprites.dungeon.purpleOuterNorthEast",
+            "sprites.dungeon.purpleOuterSouthEast",
+            "sprites.dungeon.purpleOuterNorthWest",
+            "sprites.dungeon.purpleOuterSouthWest",
+            "sprites.dungeon.purpleOuterSouth1",
+            "sprites.dungeon.purpleOuterWest1",
+            "sprites.dungeon.purpleOuterNorth1",
+            "sprites.dungeon.purpleOuterEast0",
+            "sprites.dungeon.purpleInnerNorthEast",
+            "sprites.dungeon.purpleInnerNorthWest",
+            "sprites.dungeon.purpleOuterWest0",
+            "sprites.dungeon.purpleInnerSouthEast",
+            "sprites.dungeon.floorLight4",
+            "sprites.dungeon.collectibleBlueCrystal"
+        ],
+        "displayName": "level1"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
